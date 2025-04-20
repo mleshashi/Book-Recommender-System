@@ -12,8 +12,8 @@ st.markdown(
     """
     <style>
         .main {
-            padding-left: 100px;
-            padding-right: 100px;
+            padding-left: 10%;
+            padding-right: 10%;
             background-image: url("https://raw.githubusercontent.com/mleshashi/Book-Recommender-System/image/background.png");
             background-size: contain;
             background-repeat: no-repeat;
