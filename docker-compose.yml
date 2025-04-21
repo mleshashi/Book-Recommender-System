@@ -2,7 +2,7 @@ version: "3.9"
 services:
   book-recommender:
     build: .
-    image: book-recommender-latest
+    image: mleshashi/book-recommender-latest
     container_name: book-recommender-app
     ports:
       - "8501:8501"
