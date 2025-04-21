@@ -22,6 +22,6 @@ if st.button('Show Recommendation'):
     cols = st.columns(5)
     for i in range(5):
         with cols[i]:
-            st.text(recommended_books[i])
-            st.image(poster_url[i])
+            st.text(recommended_books[i+1])
+            st.image(poster_url[i+1])
 
